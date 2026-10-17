@@ -4,3 +4,7 @@ button:disabled {
   pointer-events: none;
 }
 .document-paper-zoom { max-width:240mm !important;}
+.c-paper-wrapper-zoom {
+  width: 100% !important;
+  max-width: 56rem !important;
+}

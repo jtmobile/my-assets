@@ -54,16 +54,17 @@
 .document-paper:focus {
   outline: 2px solid #0d9488;
 }
-
-.document-paper h1 { font-size: 1.5rem; font-weight: 700; color: #0f766e; text-align: center; margin-bottom: 0.5rem; }
+.document-paper h1 { font-size: 1.5rem; font-weight: 700; color: #0f766e; text-align: center; margin-bottom: 0.75rem; margin-top:0rem}
 .document-paper h2 { font-size: 1.15rem; font-weight: 700; color: #115e59; border-bottom: 2px solid #0d9488; padding-bottom: 0.25rem; margin-top: 1.25rem; margin-bottom: 0.75rem; }
 .document-paper h3 { font-size: 1rem; font-weight: 600; color: #134e4a; margin-top: 1rem; margin-bottom: 0.5rem; }
-.document-paper p, .document-paper li { font-size: 0.92rem; color: #334155; line-height: 1.6; }
+.document-paper p { font-size: 0.865rem; color: #334155; line-height: 1.6;}
+.document-paper li { font-size: 0.865rem; color: #334155; line-height: 1.6; padding-left:2pt}
 .document-paper .pKU {margin-top: -10px; }
-.document-paper ul, .document-paper ol { padding-left: 1.25rem; margin-bottom: 0.75rem; }
+.document-paper ul{ padding-left: 0pt; margin-bottom: 0.75rem; }
+.document-paper ol { padding-left: 24pt; margin-bottom: 0.75rem; }
 .document-paper ul { list-style-type: disc; }
 .document-paper ol { list-style-type: decimal; }
-.document-paper li {font-size: 0.92rem; font-weight: 400}
+.document-paper li {font-size: 0.865rem; font-weight: 400}
 .jtpediaJAWAB {font-size: 0.85rem}
 .jtpediaFONT li {font-size: 0.85rem; font-weight: 500}
 

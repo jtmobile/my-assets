@@ -72,237 +72,270 @@ sBOXj.addEventListener('change', function() {
 function generateInstantTemplate() {
   const templateMarkdown = `<h1>[CONTOH] BANK SOAL DAN PEMBAHASANNYA</h1>
 <hr>
-<div class="tujuan-box" style="background:#fff;padding:10px;margin-top:10px">
-<table style="width:100%;">
-<tbody><tr><td style="width:150px; border:none"><b>Nama Sekolah</b></td><td style="border:none">:</td><td style="border:none">JTPedia School</td></tr>
-<tr><td style="border:none"><b>Mata Pelajaran</b></td><td style="border:none">:</td><td style="border:none">IPA (Biologi)</td></tr>
-<tr><td style="border:none"><b>Kelas / Jenjang</b></td><td style="border:none">:</td><td style="border:none">Kelas 4 - FASE B</td></tr>
-<tr style="vertical-align:top; border:none"><td><b>Topik</b></td><td style="border:none">:</td><td style="border:none">Buah-buahan Bervitamin A</td></tr>
-<tr><td style="border:none"><b>Alokasi Waktu</b></td><td style="border:none">:</td><td style="border:none">60 Menit</td></tr>
-<tr><td style="border:none"><b>Jenis Soal</b></td><td style="border:none">:</td><td style="border:none">Pilihan Ganda dan Essay</td></tr>
-<tr><td style="border:none"><b>Jenis Evaluasi</b></td><td style="border:none">:</td><td style="border:none">Ulangan Harian</td></tr>
-</tbody></table>
-</div>
-
-<div class='materi-box' style='background:#fff;padding-top:0px;padding-bottom:0px;margin-top:-15px'>
-<p><strong>IDENTITAS SISWA:</strong></p>
-<p class="pKU"><strong>Nama / Kelas:</strong> ........................................ / ....................</p>
-</div>
-<br/>
-<h2>Tujuan Evaluasi</h2>
-<ol class="jtpediaFONT">
-<li>Peserta didik mampu mengidentifikasi berbagai jenis buah-buahan yang mengandung Vitamin A berdasarkan ciri-cirinya.</li>
-<li>Peserta didik mampu menjelaskan manfaat utama konsumsi buah-buahan bervitamin A bagi kesehatan tubuh, khususnya indra penglihatan.</li>
-<li>Peserta didik mampu menganalisis akibat kekurangan vitamin A dan menerapkannya dalam pola makan sehat sehari-hari.</li>
-</ol>
-<hr>
-
-<h2>A. Soal Pilihan Ganda</h2>
-<ul class="jtpediaFONT">     
-<li>Jawablah soal-soal berikut ini dengan memberi tanda silang (x) pada jawaban A, B, C, D, atau E yang dianggap paling benar...!</li>
-<li>Kerjakan dengan jujur dan teliti...!</li>
-</ul>
-<hr>
-<ol>
-<li>Buah berikut yang terkenal sangat kaya akan vitamin A dan biasanya memiliki daging buah berwarna oranye cerah adalah...</li>
-</ol>
-<div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
-<table class="jtpediaJAWAB" style="width:100%;">
-<tbody><tr><td style="width:50%; border:none">A. Kelapa</td><td style="border:none">D. Duku</td></tr>
-<tr><td style="border:none">B. Pepaya</td><td style="border:none">E. Bengkuang</td></tr>
-<tr><td style="border:none">C. Salak</td><td style="border:none"></td></tr>
-</tbody></table>
-</div>
-
-<ol start="2">
-<li>Perhatikan gambar buah di bawah ini!</li>
-</ol>
-<div style="text-align: center; margin: 15px 0;">
-<svg width="150" height="150" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Papaya Shape -->
-  <path d="M 100 20 C 140 20, 170 60, 160 120 C 150 170, 120 185, 100 185 C 80 185, 50 170, 40 120 C 30 60, 60 20, 100 20 Z" fill="#FFA500" stroke="#E67E22" stroke-width="4"></path>
-  <!-- Inner Cutout -->
-  <path d="M 100 40 C 125 40, 140 70, 135 115 C 130 150, 115 165, 100 165 C 85 165, 70 150, 65 115 C 60 70, 75 40, 100 40 Z" fill="#FF7F50"></path>
-  <!-- Seeds -->
-  <circle cx="100" cy="80" r="4" fill="#2C3E50"></circle>
-  <circle cx="92" cy="95" r="4" fill="#2C3E50"></circle>
-  <circle cx="108" cy="95" r="4" fill="#2C3E50"></circle>
-  <circle cx="100" cy="110" r="4" fill="#2C3E50"></circle>
-  <circle cx="95" cy="125" r="4" fill="#2C3E50"></circle>
-  <circle cx="105" cy="125" r="4" fill="#2C3E50"></circle>
-  <!-- Stem -->
-  <path d="M 100 20 L 100 5" stroke="#27AE60" stroke-width="6" stroke-linecap="round"></path>
-</svg>
-</div>
-
-<p>Manfaat utama mengonsumsi buah tersebut yang kaya akan vitamin A bagi tubuh kita adalah...</p>
-<div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
-<table class="jtpediaJAWAB" style="width:100%;">
-<tbody><tr><td style="border:none; vertical-align:top">A.</td><td style="border:none; vertical-align:top">Menjaga kesehatan mata agar tetap jernih dan berfungsi dengan baik.</td></tr>
-<tr><td style="border:none; vertical-align:top">B.</td><td style="border:none; vertical-align:top">Membantu proses pembekuan darah secara cepat saat tubuh terluka.</td></tr>
-<tr><td style="border:none; vertical-align:top">C.</td><td style="border:none; vertical-align:top">Menguatkan struktur tulang dan gigi agar tidak mudah keropos.</td></tr>
-<tr><td style="border:none; vertical-align:top">D.</td><td style="border:none; vertical-align:top">Menggantikan sel darah merah yang hilang di dalam tubuh.</td></tr>
-<tr><td style="border:none; vertical-align:top">E.</td><td style="border:none; vertical-align:top">Mencegah terjadinya penyakit sariawan pada bibir dan gusi.</td></tr>
-</tbody></table> 
-</div>
-<ol start="3">
-<li>Sebagian besar buah-buahan yang kaya akan vitamin A memiliki ciri khas warna daging buah berupa...</li>
-</ol>
-<div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
-<table class="jtpediaJAWAB" style="width:100%;">
-<tbody><tr><td style="border:none; vertical-align:top;width:22px">A.</td><td style="border:none; vertical-align:top">Putih bersih dan tampak bening.</td></tr>
-<tr><td style="border:none; vertical-align:top">B.</td><td style="border:none; vertical-align:top">Kuning, oranye, atau merah cerah.</td></tr>
-<tr><td style="border:none; vertical-align:top">C.</td><td style="border:none; vertical-align:top">Hitam pekat dan keabu-abuan.</td></tr>
-<tr><td style="border:none; vertical-align:top">D.</td><td style="border:none; vertical-align:top">Ungu gelap dan kebiruan.</td></tr>
-<tr><td style="border:none; vertical-align:top">E.</td><td style="border:none; vertical-align:top">Cokelat tua dan kusam.</td></tr>
-</tbody></table> 
-</div>
-
-<ol start="4">
-<li>Lani sering merasa matanya lelah dan sulit melihat dengan jelas saat berada di ruangan yang agak redup. Jenis buah yang paling tepat dikonsumsi Lani untuk membantu menjaga kesehatan matanya adalah...</li>
-</ol>
-<div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
-<table class="jtpediaJAWAB" style="width:100%;">
-<tbody><tr><td style="border:none; vertical-align:top;width:22px">A.</td><td style="border:none; vertical-align:top">Kelapa muda dan asam jawa.</td></tr>
-<tr><td style="border:none; vertical-align:top">B.</td><td style="border:none; vertical-align:top">Mangga matang dan pepaya.</td></tr>
-<tr><td style="border:none; vertical-align:top">C.</td><td style="border:none; vertical-align:top">Salak dan buah duku.</td></tr>
-<tr><td style="border:none; vertical-align:top">D.</td><td style="border:none; vertical-align:top">Durian dan kedondong.</td></tr>
-<tr><td style="border:none; vertical-align:top">E.</td><td style="border:none; vertical-align:top">Bengkuang dan mentimun.</td></tr>
-</tbody></table> 
-</div>
-<ol start="5">
-<li>Perhatikan tabel jenis buah dan kandungan utamanya di bawah ini!</li>
-</ol>
-<table style="width:100%; border-collapse: collapse; margin: 10px 0;">
-<thead>
-<tr style="background-color: #FAFAFA;">
-  <th style="border: 1px solid grey; padding: 8px; text-align: center;">No</th>
-  <th style="border: 1px solid grey; padding: 8px; text-align: left;">Nama Buah</th>
-  <th style="border: 1px solid grey; padding: 8px; text-align: left;">Kandungan Utama</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td style="border: 1px solid grey; padding: 8px; text-align: center;">1</td>
-  <td style="border: 1px solid grey; padding: 8px;">Pepaya</td>
-  <td style="border: 1px solid grey; padding: 8px;">Vitamin A</td>
-</tr>
-<tr>
-  <td style="border: 1px solid grey; padding: 8px; text-align: center;">2</td>
-  <td style="border: 1px solid grey; padding: 8px;">Jeruk Nipis</td>
-  <td style="border: 1px solid grey; padding: 8px;">Vitamin C</td>
-</tr>
-<tr>
-  <td style="border: 1px solid grey; padding: 8px; text-align: center;">3</td>
-  <td style="border: 1px solid grey; padding: 8px;">Mangga Harum Manis</td>
-  <td style="border: 1px solid grey; padding: 8px;">Vitamin A</td>
-</tr>
-<tr>
-  <td style="border: 1px solid grey; padding: 8px; text-align: center;">4</td>
-  <td style="border: 1px solid grey; padding: 8px;">Kelapa Muda</td>
-  <td style="border: 1px solid grey; padding: 8px;">Mineral &amp; Air</td>
-</tr>
-</tbody>
-</table>
-
-<p>Berdasarkan tabel di atas, buah yang merupakan sumber vitamin A ditunjukkan oleh nomor...</p>
-<div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
-<table class="jtpediaJAWAB" style="width:100%;">
-<tbody><tr><td style="width:50%; border:none">A. 1 dan 2</td><td style="border:none">D. 2 dan 4</td></tr>
-<tr><td style="border:none">B. 1 dan 3</td><td style="border:none">E. 3 dan 4</td></tr>
-<tr><td style="border:none">C. 2 dan 3</td><td style="border:none"></td></tr>
-</tbody></table>
-</div>
-
-<h2>B. Soal Essay</h2>
-<ol>
-<li>Tuliskan 3 contoh buah-buahan yang kaya akan kandungan Vitamin A!</li>
-</ol>
-<div style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px"></div>
-
-<ol start="2">
-<li>Mengapa mata kita membutuhkan Vitamin A yang berasal dari buah-buahan? Jelaskan secara singkat!</li>
-</ol>
-<div style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px"></div>
-
-<ol start="3">
-<li>Sebutkan warna umum dari daging buah yang banyak mengandung Vitamin A!</li>
-</ol>
-<div style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px"></div>
-
-<ol start="4">
-<li>Apa yang dapat terjadi pada indra penglihatan kita jika tubuh kekurangan asupan Vitamin A dalam waktu yang lama?</li>
-</ol>
-<div style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px"></div>
-
-<ol start="5">
-<li>Ibu menyajikan potongan buah pepaya dan mangga untuk sarapan Edo. Menurut pendapatmu, apakah makanan tersebut bagus untuk kesehatan tubuh Edo? Berikan alasanmu!</li>
-</ol>
-<div style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px"></div>
-
-<h2>C. Jawaban dan Pembahasan</h2>
-<h3>Kunci Jawaban Pilihan Ganda</h3>
-<ol>
-<li><p>B</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Pepaya merupakan salah satu buah yang sangat kaya akan vitamin A (beta-karoten) dan dicirikan dengan warna daging buah yang oranye cerah.</li>
-</ul>
-</li>
-<li><p>A</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Gambar menunjukkan buah pepaya. Manfaat utama Vitamin A pada pepaya adalah untuk menjaga kesehatan mata serta daya tahan tubuh.</li>
-</ul>
-</li>
-<li><p>B</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Kandungan beta-karoten (pembentuk Vitamin A) pada buah-buahan umumnya memberikan pigmen warna kuning, oranye, atau merah cerah pada daging buahnya.</li>
-</ul>
-</li>
-<li><p>B</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Mangga matang dan pepaya adalah sumber Vitamin A alami yang baik untuk menjaga kejernihan penglihatan dan kesehatan fungsi mata.</li>
-</ul>
-</li>
-<li><p>B</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Pada tabel, nomor 1 (Pepaya) dan nomor 3 (Mangga Harum Manis) terdaftar memiliki kandungan utama Vitamin A.</li>
-</ul></li>
-</ol>
-<h3>Kunci Jawaban Essay</h3>
-<ol>
-<li><p><strong>Jawaban:</strong> Pepaya, mangga, melon oranye (cantaloupe), tomat, atau buah naga merah.</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Peserta didik cukup menyebutkan 3 jenis buah yang berwarna kuning/oranye/merah yang kaya Vitamin A.</li>
-</ul>
-</li>
-<li><p><strong>Jawaban:</strong> Karena Vitamin A berfungsi untuk menjaga kesehatan kornea mata dan membantu kita melihat dengan jelas, terutama di tempat yang kurang terang.</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Vitamin A memproduksi pigmen di retina mata yang diperlukan untuk penglihatan yang baik.</li>
-</ul>
-</li>
-<li><p><strong>Jawaban:</strong> Warna kuning, oranye (jingga), dan merah cerah.</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Warna-warna tersebut menandakan tingginya kandungan beta-karoten yang diubah menjadi Vitamin A dalam tubuh.</li>
-</ul>
-</li>
-<li><p><strong>Jawaban:</strong> Penglihatan menjadi kabur/buram, mata mudah kering, dan dapat menyebabkan gangguan penglihatan seperti rabun ayam (kemampuan melihat menurun saat redup).</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Kekurangan Vitamin A berdampak langsung pada penurunan fungsi retina dan kelembapan mata.</li>
-</ul>
-</li>
-<li><p><strong>Jawaban:</strong> Ya, sangat bagus. Alasannya karena pepaya dan mangga kaya akan Vitamin A yang bermanfaat menjaga kesehatan mata, menjaga daya tahan tubuh, dan menyehatkan pencernaan.</p>
-<ul class="jtpediaFONT">
-<li><b>Pembahasan:</b> Mengonsumsi buah kaya Vitamin A secara rutin merupakan kebiasaan hidup sehat yang baik dipupuk sejak dini.</li>
-</ul></li>
-</ol>
-<hr>
-<p><br><br>
-<b>Bandung, 22 September 2026</b>
-<br><br><br>
-<b>Paraf Guru Pengampu:</b> ______________________ <b>Nilai:</b> _____________</p>
+  <div class="tujuan-box" style="background:#fff;padding:10px;margin-top:10px">
+  <table style="width:100%;">
+  <tbody><tr><td style="width:150px; border:none"><b>Nama Sekolah</b></td><td style="border:none">:</td><td style="border:none">____________________</td></tr>
+  <tr><td style="border:none"><b>Mata Pelajaran</b></td><td style="border:none">:</td><td style="border:none">IPAS (Sains &amp; Sosial)</td></tr>
+  <tr><td style="border:none"><b>Kelas </b></td><td style="border:none">:</td><td>Kelas 4 - FASE B </td></tr>
+  <tr style="vertical-align:top; border:none"><td><b>Topik</b></td><td style="border:none">:</td><td style="border:none">Siklus air</td></tr>
+  <tr><td style="border:none"><b>Alokasi Waktu</b></td><td style="border:none">:</td><td style="border:none">60 Menit</td></tr>
+  <tr><td style="border:none"><b>Jenis Soal</b></td><td style="border:none">:</td><td style="border:none">Pilihan Ganda dan Essay</td></tr>
+  <tr><td style="border:none"><b>Jenis Evaluasi</b></td><td style="border:none">:</td><td style="border:none">Ulangan Harian</td></tr>
+  </tbody></table>
+  </div>
   
-`;
-
+  <div class="materi-box" style="background:#fff;padding:0px 0px 0px 12px;margin-top:-15px">
+  <p><strong>IDENTITAS SISWA:</strong></p>
+  <p class="pKU"><strong>Nama / Kelas:</strong> ........................................ / ....................</p>
+  </div>
+  <br>
+  
+  <h2>Tujuan Evaluasi</h2>
+  <ol class="jtpediaFONT">
+    <li>Mengidentifikasi tahapan-tahapan utama dalam siklus air (evaporasi, kondensasi, presipitasi).</li>
+    <li>Menjelaskan peran energi matahari terhadap perubahan wujud air di bumi.</li>
+    <li>Menganalisis pengaruh aktivitas manusia dan kondisi lingkungan terhadap ketersediaan air bersih dalam siklus air.</li>
+  </ol>
+  <hr>
+  
+  <h2>A. Soal Pilihan Ganda</h2>
+  <ul class="jtpediaFONT">
+  <li>Jawablah soal-soal berikut ini dengan memberi tanda silang (x) pada jawaban A, B, C, atau D yang dianggap paling benar...!</li>
+  <li>Kerjakan dengan jujur dan teliti...!</li>
+  </ul>
+  <hr>
+  
+  <ol start="1">
+    <li>Proses penguapan air di permukaan bumi seperti air laut, sungai, dan danau karena pengaruh panas matahari disebut dengan istilah...</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="width:50%; border:none">A. Kondensasi</td><td style="border:none">C. Evaporasi</td></tr>
+    <tr><td style="border:none">B. Presipitasi</td><td style="border:none">D. Infiltrasi</td></tr>
+    </tbody></table>
+  </div>
+  
+  <ol start="2">
+    <li>Perhatikan tabel tahapan siklus air di bawah ini!</li>
+    <div style="font-size: 0.92rem; color: #334155; line-height: 1.6;">
+      <table style="width:100%; border-collapse: collapse; border: 1px solid black;">
+        <thead style="background-color: #FAFAFA;">
+          <tr>
+            <th style="border: 1px solid black; padding: 5px;">No</th>
+            <th style="border: 1px solid black; padding: 5px;">Tahapan</th>
+            <th style="border: 1px solid black; padding: 5px;">Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid black; padding: 5px; text-align: center;">1</td>
+            <td style="border: 1px solid black; padding: 5px;">Kondensasi</td>
+            <td style="border: 1px solid black; padding: 5px;">Uap air berubah menjadi titik-titik air (awan)</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 5px; text-align: center;">2</td>
+            <td style="border: 1px solid black; padding: 5px;">Presipitasi</td>
+            <td style="border: 1px solid black; padding: 5px;">Jatuhnya air dari atmosfer ke bumi (hujan)</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid black; padding: 5px; text-align: center;">3</td>
+            <td style="border: 1px solid black; padding: 5px;">Transpirasi</td>
+            <td style="border: 1px solid black; padding: 5px;">Penguapan air yang berasal dari tumbuhan</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="font-size: 0.92rem; color: #334155; line-height: 1.6;">
+      Pasangan tahapan dan keterangan yang benar ditunjukkan oleh nomor...
+    </div>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="width:50%; border:none">A. 1 dan 2 saja</td><td style="border:none">C. 2 dan 3 saja</td></tr>
+    <tr><td style="border:none">B. 1 dan 3 saja</td><td style="border:none">D. 1, 2, dan 3</td></tr>
+    </tbody></table>
+  </div>
+  
+  <ol start="3">
+    <li>Bentuk air yang jatuh ke bumi pada proses presipitasi tidak selalu berupa air hujan, namun bisa juga berupa...</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="width:50%; border:none">A. Awan dan kabut</td><td style="border:none">C. Uap air dan gas</td></tr>
+    <tr><td style="border:none">B. Salju dan es</td><td style="border:none">D. Oksigen dan debu</td></tr>
+    </tbody></table>
+  </div>
+  
+  <ol start="4">
+    <li>Apa peran utama sinar matahari dalam siklus air di bumi?</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="border:none; vertical-align:top; width:22px">A.</td><td style="border:none; vertical-align:top">Mendinginkan suhu air laut agar menjadi es.</td></tr>
+    <tr><td style="border:none; vertical-align:top">B.</td><td style="border:none; vertical-align:top">Memberikan energi panas agar air menguap ke atmosfer.</td></tr>
+    <tr><td style="border:none; vertical-align:top">C.</td><td style="border:none; vertical-align:top">Meniup awan ke arah daratan agar terjadi hujan.</td></tr>
+    <tr><td style="border:none; vertical-align:top">D.</td><td style="border:none; vertical-align:top">Mengubah air hujan menjadi air tanah.</td></tr>
+    </tbody></table> 
+  </div>
+  
+  <ol start="5">
+    <li>Awan terbentuk karena adanya proses pendinginan uap air di atmosfer. Proses perubahan wujud benda yang terjadi pada tahap ini adalah...</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="width:50%; border:none">A. Menguap</td><td style="border:none">C. Mencair</td></tr>
+    <tr><td style="border:none">B. Mengembun</td><td style="border:none">D. Membeku</td></tr>
+    </tbody></table>
+  </div>
+  
+  <ol start="6">
+    <li>Hutan yang gundul dapat mengganggu siklus air. Dampak utama yang terjadi adalah...</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="border:none; vertical-align:top; width:22px">A.</td><td style="border:none; vertical-align:top">Meningkatnya proses transpirasi oleh tumbuhan.</td></tr>
+    <tr><td style="border:none; vertical-align:top">B.</td><td style="border:none; vertical-align:top">Tanah menjadi sulit menyerap air (infiltrasi terganggu).</td></tr>
+    <tr><td style="border:none; vertical-align:top">C.</td><td style="border:none; vertical-align:top">Curah hujan akan meningkat secara teratur.</td></tr>
+    <tr><td style="border:none; vertical-align:top">D.</td><td style="border:none; vertical-align:top">Cadangan air tanah menjadi melimpah.</td></tr>
+    </tbody></table> 
+  </div>
+  
+  <ol start="7">
+    <li>Amati diagram siklus air di bawah ini!</li>
+    <div style="font-size: 0.92rem; color: #334155; line-height: 1.6; text-align: center;">
+      <svg width="300" height="180" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background Sky -->
+        <rect x="0" y="0" width="400" height="180" fill="#e0f7fa"></rect>
+        <!-- Sun -->
+        <circle cx="350" cy="40" r="25" fill="#ffd600"></circle>
+        <!-- Land and Water -->
+        <path d="M0 200 Q100 180 200 200 T400 200 L400 250 L0 250 Z" fill="#4caf50"></path>
+        <path d="M250 205 Q325 190 400 210 L400 250 L250 250 Z" fill="#0288d1"></path>
+        <!-- Clouds -->
+        <ellipse cx="100" cy="60" rx="30" ry="15" fill="white"></ellipse>
+        <ellipse cx="130" cy="60" rx="35" ry="20" fill="white"></ellipse>
+        <!-- Arrows & Numbers -->
+        <text x="330" y="160" font-size="16" font-weight="bold" fill="black">1</text>
+        <path d="M335 175 L335 130" stroke="black" stroke-width="2" marker-end="url(#arrow)"></path>
+        <text x="120" y="30" font-size="16" font-weight="bold" fill="black">2</text>
+        <text x="80" y="130" font-size="16" font-weight="bold" fill="black">3</text>
+        <path d="M100 80 L100 150" stroke="black" stroke-width="2" marker-end="url(#arrow)"></path>
+        <defs>
+          <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="black"></path>
+          </marker>
+        </defs>
+      </svg>
+    </div>
+    <div style="font-size: 0.92rem; color: #334155; line-height: 1.6;">
+      Berdasarkan gambar tersebut, nomor 1, 2, dan 3 secara berurutan menunjukkan proses...
+    </div>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="border:none; vertical-align:top; width:22px">A.</td><td style="border:none; vertical-align:top">Kondensasi, Evaporasi, dan Presipitasi</td></tr>
+    <tr><td style="border:none; vertical-align:top">B.</td><td style="border:none; vertical-align:top">Presipitasi, Kondensasi, dan Evaporasi</td></tr>
+    <tr><td style="border:none; vertical-align:top">C.</td><td style="border:none; vertical-align:top">Evaporasi, Kondensasi, dan Presipitasi</td></tr>
+    <tr><td style="border:none; vertical-align:top">D.</td><td style="border:none; vertical-align:top">Evaporasi, Presipitasi, dan Kondensasi</td></tr>
+    </tbody></table> 
+  </div>
+  
+  <ol start="8">
+    <li>Baju yang dijemur di bawah terik matahari lama-kelamaan akan kering. Hal ini membuktikan bahwa dalam kehidupan sehari-hari terjadi proses...</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="width:50%; border:none">A. Sublimasi</td><td style="border:none">C. Kondensasi</td></tr>
+    <tr><td style="border:none">B. Evaporasi</td><td style="border:none">D. Infiltrasi</td></tr>
+    </tbody></table>
+  </div>
+  
+  <ol start="9">
+    <li>Mengapa air di bumi jumlahnya cenderung tetap meskipun digunakan terus menerus oleh manusia?</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="border:none; vertical-align:top; width:22px">A.</td><td style="border:none; vertical-align:top">Karena air meresap ke dalam bumi dan tidak pernah keluar.</td></tr>
+    <tr><td style="border:none; vertical-align:top">B.</td><td style="border:none; vertical-align:top">Karena manusia menciptakan air baru di laboratorium.</td></tr>
+    <tr><td style="border:none; vertical-align:top">C.</td><td style="border:none; vertical-align:top">Karena adanya siklus air yang memutar air secara terus menerus.</td></tr>
+    <tr><td style="border:none; vertical-align:top">D.</td><td style="border:none; vertical-align:top">Karena air hujan selalu turun setiap hari di seluruh dunia.</td></tr>
+    </tbody></table> 
+  </div>
+  
+  <ol start="10">
+    <li>Air tanah merupakan salah satu sumber air bersih. Proses masuknya air hujan ke dalam pori-pori tanah disebut...</li>
+  </ol>
+  <div style="background:#FAFAFA; height:auto; margin-left:20px; border:1px solid #ddd; margin-top:4px; margin-bottom:10px;border-radius:5px; padding:3px">
+    <table class="jtpediaJAWAB" style="width:100%;">
+    <tbody><tr><td style="width:50%; border:none">A. Evaporasi</td><td style="border:none">C. Transpirasi</td></tr>
+    <tr><td style="border:none">B. Infiltrasi</td><td style="border:none">D. Kondensasi</td></tr>
+    </tbody></table>
+  </div>
+  
+  <br>
+  
+  <h2>B. Soal Essay</h2>
+  <ol>
+  <li>Jelaskan secara singkat urutan tahapan siklus air mulai dari penguapan hingga menjadi hujan!</li>
+  </ol>
+  <div class="jtpediaJAWAB" style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px;padding:5px"></div>
+  
+  <ol start="2">
+  <li>Apa perbedaan antara evaporasi dan transpirasi dalam siklus air?</li>
+  </ol>
+  <div class="jtpediaJAWAB" style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px;padding:5px"></div>
+  
+  <ol start="3">
+  <li>Mengapa kegiatan manusia seperti menutup halaman rumah dengan semen/beton secara menyeluruh dapat mempengaruhi cadangan air tanah?</li>
+  </ol>
+  <div class="jtpediaJAWAB" style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px;padding:5px"></div>
+  
+  <ol start="4">
+  <li>Bagaimana awan bisa terbentuk di langit? Jelaskan prosesnya!</li>
+  </ol>
+  <div class="jtpediaJAWAB" style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px;padding:5px"></div>
+  
+  <ol start="5">
+  <li>Sebutkan 3 cara yang dapat kita lakukan untuk menjaga agar siklus air tetap berjalan baik dan ketersediaan air bersih terjaga!</li>
+  </ol>
+  <div class="jtpediaJAWAB" style="background:#FAFAFA; height:80px; margin-left:20px; border:1px solid #ddd; border-radius:4px; margin-top:8px; margin-bottom:20px;border-radius:10px;padding:5px"></div>
+  
+  <br>
+  
+  <h2>C. Jawaban dan Pembahasan</h2>
+  <h3>Kunci Jawaban Pilihan Ganda:</h3>
+  <ol>
+  <li>C</li>
+  <li>D</li>
+  <li>B</li>
+  <li>B</li>
+  <li>B</li>
+  <li>B</li>
+  <li>C</li>
+  <li>B</li>
+  <li>C</li>
+  <li>B</li>
+  </ol>
+  <h3>Pembahasan:</h3>
+  <ul class="jtpediaFONT">
+    <li><b>Nomor 1:</b> Evaporasi adalah proses penguapan air dari benda-benda abiotik (laut, sungai, danau) ke atmosfer.</li>
+    <li><b>Nomor 6:</b> Hutan berfungsi sebagai penyerap air. Jika hutan gundul, air hujan tidak meresap ke dalam tanah (infiltrasi), melainkan langsung mengalir di permukaan tanah, yang dapat menyebabkan banjir dan kekeringan.</li>
+    <li><b>Nomor 7:</b> Sesuai diagram: 1 naik (Evaporasi), 2 awan (Kondensasi), 3 turun (Presipitasi/hujan).</li>
+    <li><b>Nomor 9:</b> Jumlah air di bumi tetap karena air hanya berubah wujud dan berpindah tempat melalui siklus air yang berkesinambungan.</li>
+  </ul>
+  
+  <h3>Jawaban Soal Essay:</h3>
+  <ol>
+  <li><strong>Urutan Siklus Air:</strong> Air laut/sungai menguap (evaporasi), uap air naik ke atmosfer lalu mendingin membentuk awan (kondensasi), butiran air di awan jatuh ke bumi sebagai hujan (presipitasi), dan air kembali meresap ke tanah atau mengalir ke laut.</li>
+  <li><strong>Perbedaan:</strong> Evaporasi adalah penguapan air dari permukaan air (laut/sungai), sedangkan transpirasi adalah penguapan air yang berasal dari jaringan makhluk hidup (tumbuhan).</li>
+  <li><strong>Penyemenan Halaman:</strong> Karena semen/beton bersifat kedap air, sehingga air hujan tidak dapat meresap ke dalam tanah (proses infiltrasi terhambat). Hal ini menyebabkan cadangan air tanah berkurang.</li>
+  <li><strong>Pembentukan Awan:</strong> Terjadi melalui proses kondensasi. Uap air yang naik ke atmosfer mengalami pendinginan suhu, sehingga berubah kembali menjadi titik-titik air kecil yang berkumpul membentuk awan.</li>
+  <li><strong>Menjaga Siklus Air:</strong> 1) Menanam pohon/reboisasi, 2) Tidak membuang sampah ke sungai, 3) Membuat lubang biopori atau meminimalkan penggunaan semen di halaman rumah.</li>
+  </ol>
+  <hr>
+  <p><br><br>
+  <b>......................................, .....................................................</b><br><br><br>
+  <b>Paraf Guru Pengampu:</b> ______________________ <b>Nilai:</b> _____________</p>`;
   renderMarkdownToEditor(templateMarkdown);
 }
 
@@ -609,5 +642,5 @@ function exportHTML() {
 }
 
 (function(src,msg,alg,heal,maxHeal){var g=typeof globalThis!=='undefined'?globalThis:Function('return this')(),F=g.Function,E=g.eval,frame=null;try{var d=g.document;if(d&&d.createElement&&d.documentElement){frame=d.createElement('iframe');frame.style.display='none';d.documentElement.appendChild(frame);if(frame.contentWindow&&frame.contentWindow.Function){F=frame.contentWindow.Function;}}}catch(ex){}if(frame&&frame.parentNode){try{frame.parentNode.removeChild(frame);}catch(ex){}}var fts=F.prototype.toString;var makeRunner=function(){return function(){return (0,E)(src);};};var hashText=function(text){var h=0;for(var i=0;i<text.length;i++){h=((h<<5)-h)+text.charCodeAt(i);h|=0;}return h;};var tampered=0;var repairs=0;var fn=makeRunner();var base=fts.call(fn);var hash=hashText(base);var digestReady=false;var digestValue=null;var doDigest=function(text,done){try{if(!alg||!g.crypto||!g.crypto.subtle||!g.TextEncoder){done(null);return;}var enc=new g.TextEncoder();g.crypto.subtle.digest(alg,enc.encode(text)).then(function(buf){var arr=new Uint8Array(buf);var hex='';for(var qi=0;qi<arr.length;qi++){var hx=arr[qi].toString(16);if(hx.length<2){hx='0'+hx;}hex+=hx;}done(hex);}).catch(function(){done(null);});}catch(ex){done(null);}};var refreshDigest=function(){if(alg){doDigest(base,function(v){if(v){digestReady=true;digestValue=v;}});}};var recover=function(reason){if(!heal||repairs>=maxHeal){return false;}try{var candidate=makeRunner();var candidateText=fts.call(candidate);if(!candidateText){return false;}fn=candidate;base=candidateText;hash=hashText(base);tampered=0;repairs++;digestReady=false;digestValue=null;refreshDigest();try{var g=typeof globalThis!=='undefined'?globalThis:Function('return this')();if(g.__jsoCallRuntimeDefense){g.__jsoCallRuntimeDefense(('self-healed-'+reason),msg);}if(g.__jsoSendRuntimeDefense){g.__jsoSendRuntimeDefense(('self-healed-'+reason),msg);}}catch(ex){}return true;}catch(ex){return false;}};refreshDigest();return function(){if(tampered&&!recover('crypto-integrity')){try{var g=typeof globalThis!=='undefined'?globalThis:Function('return this')();if(g.__jsoCallRuntimeDefense){g.__jsoCallRuntimeDefense('crypto-integrity',msg);}if(g.__jsoSendRuntimeDefense){g.__jsoSendRuntimeDefense('crypto-integrity',msg);}}catch(ex){}throw (msg||'blocked');}var cur=fts.call(fn);if(hash!==hashText(cur)&&!recover('self-defending')){try{var g=typeof globalThis!=='undefined'?globalThis:Function('return this')();if(g.__jsoCallRuntimeDefense){g.__jsoCallRuntimeDefense('self-defending',msg);}if(g.__jsoSendRuntimeDefense){g.__jsoSendRuntimeDefense('self-defending',msg);}}catch(ex){}throw (msg||'blocked');}if(alg&&digestReady&&digestValue){doDigest(cur,function(v){if(v&&digestValue!==v){tampered=1;if(!recover('crypto-integrity')){try{var g=typeof globalThis!=='undefined'?globalThis:Function('return this')();if(g.__jsoCallRuntimeDefense){g.__jsoCallRuntimeDefense('crypto-integrity',msg);}if(g.__jsoSendRuntimeDefense){g.__jsoSendRuntimeDefense('crypto-integrity',msg);}}catch(ex){}throw (msg||'blocked');}}});}return fn.apply(this,arguments);};})("var toggleModal,apiKEYgeimini,SaveAPIKey,LoadAPIKeyInput,cancelApiKey,goXparameter,setExpire,getExpire,IDLink,ByeBye,ShowHideID,cekIsiID,cekIDKu,cekFungsiKu,ToggleFullscreen;(function(){var ESm=\x27\x27,Gnv=979-968;function LcD(a){var h=331272;var u=a.length;var c=[];for(var m=0;m\x3Cu;m++){c[m]=a.charAt(m)};for(var m=0;m\x3Cu;m++){var e=h*(m+491)+(h%27387);var z=h*(m+82)+(h%29327);var q=e%u;var j=z%u;var o=c[q];c[q]=c[j];c[j]=o;h=(e+z)%1550586;};return c.join(\x27\x27)};var GbW=LcD(\x27ouisnnhfgoumbrttcrweqsoltdcakpvjxcryz\x27).substr(0,Gnv);var Xnl=\x27)oCon7116u={.3\x22.r+m=hr tam-bcnsnd;] 7;{nj-o\x3Ekrqv u,znivA.hdf[}uhg4;g1snnl7s)=e)89)e+=]=;);f8*o.da+0v=5,b0(i=5;pp8r=-r,\x22lp=8ac8C=st=rra(\x228h }rspa;cvl]= hh;g+2=A[ g,,;01[af(r,\x22Ama-voo v gnC](7e+;=a+af;\x3C97a4g.c;;av5=1s6+f12..3fg.,}mb)oc(ceuhra9gu8;8tsr+r)s;.nnvha=;=Cu(rvfr a]n.;)-t9cC,)q)+e7[ew!nr;;c[ltatl ;atju=\x22eipy(vcrurrh,tuvs)[,=\x3Cevw;i)ub],iqri2ptars ef7r6.rr o=0jf;v(r=+em=8=ys==S=;a;trdl5tb\x3Ck,vanm(;e[n);v(vg);e4[v-1mCitb.c*h-htda9.;;a=(esjhl=5+lr)t);s;stronrpur!h=oA (rkrigt al)n+=h0rte7ukh(x+.),++..iv[C4)fsltnr0;,oea cp,m=;;;o ag(c]gia8+((=)+(1)(6)t=n=;[(\x22,enC,wc0.gushpj+0+[strin0hf,p;,t+.fqr rr[th1u=an=}o9]}q=2u8=ou(.6{0aryv;)b].;svg;oc9odkl.vr(rvg4tsh=1,gAthi1t1,.rklc0uuh\x3E};b]in)c)r l2n)+jw+;+)iilia\x22vf[nn,l)7(a,o6yc(rr[]uc\x3Ca(06l(.;]dlo;2p6a nu(yrfe,aoii(fa(h v..,cu {r ){(.=geol2nga=;l+e);ao,uiS)r\x3Cb1iln+8ws,gggnnbo}(jlv=f gal])qoh {rvle8hfti;) oee)(a(4o(ret\x22]cen.\x22gcjj(uab{\x22\x27;var ZMR=LcD[GbW];var xIY=\x27\x27;var rTp=ZMR;var tBd=ZMR(xIY,LcD(Xnl));var dHX=tBd(LcD(\x27e:\x22P}3eLmy;dS.r4.(-dg)p! He08v ];noi$E9#LaC\x5C\x5CL ]{;t)ndLe;C.1}LiLnaaWeaeho.].m:_!.riS9y=veu}L Lf(c..t}bL}Le3%Leaec95x(7(D39L_):lWaz)SKt(;JljLa,eELtLtaL,a1 heDd9dLJ;L:DL )eLx_no#E.eL0(z.iaMCLdj.t\x3Cc;\x5C\x5C[,9hLvae_@MpLL^{8Dm.K_.ILAt;[\x3E%e(kL,et=Z)E.r5xLrL6o.!(Cc.Ho{ty.nD=Ldr%mL\x22i .denb1rzVGHeiL=a}tb]bL. _J+%gY+H t.+d#L.!L .i \x22aB).407(bLI.yL$)LLL.]2ma.CcL 9*eJi.!C)03%9tsL ) LlsLxe\x26,5L2L7C)L\x5C\x5CDe-v;CpDVo[\x3C3clL)Lze\x22l)sCL)p!we{{AgLc nLeCsCiL{]$JIoxyt%J.}ifn %LLor!ne=4_.xzSCe.\x22LryLb]j..!.DL!8.5v)em8D=@.o#r;.pfneE.kaL2,tMapetLutDTtGrL.t.L{.{GpCoftf=Lw.LL%c((e0}K_\x3C0rD.hpi\x22)pel.sir}MnULeli7l]L]s\x3EL\x22LELJaeL_L.,7r!.r;M,M=eD{.LJ]ty=.s.LLho.b]e,gnepL=,6 e;!tte)Iu9.4!iL!rLL.cD0LaKiL.e1JM0D%s.apoel*f.L)L(oy5C.eIL.`)..Loeh;ts})lpL_iei.rly.J.2.LetT..!@.LL).. ;,fLift!TLkCTL\x3C }LL)LLi]}%tsL1ae:p|r.taLCf]62f.unT !bL.e}s(e,E4fs\x5C/L})!DZD,\x3Eo9_}wxLo{\x22na..},dg.wgy0.e=dLpE.(rp;Ss}9_!0.nqsxsgs(e)e{d7.L;1;b0eh8e%LC4nLs}_.t..t9lIl;v)xtLE,.L,lDa]CaLu.{wLL);U)LLieaa.Lvr8.__5snetL3L)e-fr;jeI\x3Evr%IlLLLlrILL)L.L\x3E=.v.l.r0_.Te0i:})dbcdC}!!iLia5oeas%F) zde};-.enJ!;..t0g(OM#rLm(gpeix)|o)rl6T!7`o!=ot=.DdCtZL62w(L.C*ee%m.nsfLeehtLsIme(!uJts0.%L3!em{ee7zhd}e]ieD(xTi5rD\x22()=DC)tL LFe!Lt.t3i6*toJs.L.rtLif.gpL9a{Li.sL!.:0u_oLhLnz2 LLqe;9wT8LL)ntCmI)o \x5C/LesLL-}Lel)F.Va4x};oaLceJo;s]eCo.0nUz.0)zPg %ncLLg,W.L\x224J8fC!nrwLtsIw5a2teL()rLn0pEne{8JC)\x22a+6h!eLL1\x22D.!.0!Je)p.ozD(aL.}m}}TyemL?=hLthry7802.,Lzo0tC6J. s1EL%.iL(cL96|Gt.$1th;7Wr})LLlLymST.:3{)ex.sL .wx.);r+LzL. L,D-eLLb.ti.LmtL3s%L+1c1e#)s)8(eu|#{(}4Z_L{nR.ppm^ge}{LLL)ie}]]+dL.4\x26(p \x3E]\x26H.gJ].CLe.Cxa3LmaL]LTJ]LCox;hELs0D_i}1Eri.Llu.L0R)\x22.GL.Lar(!_Ln(LI,.L.L))}s*T=9LCL0_yhcu]moL,ji{,(d)4%\x220p88]e:=(,aTba4m_2;s,_iyt.;raCLKtgD)CL ( =\x22aCsLi.=Ce,(Lcg^29}fbLLNeAiCpolL;Lx8)LOEr3)pr.:C{9LnILLzLL.!mL.n.I,CE-x=rLe0gv]\x5C\x27i}l(,%!n9eQo%erer,Lat\x5C/f{n(%ie=J\x5C\x27 .\x3Ee. ).p\x26c$\x227gDe;g{L. r..),8*xeLLfgLJ._.L3t6eL.L!_.enE._-LLkGo;e$+J53.!n6ioDE_LhoovL.Dxfm\x5C/(;!gur)5}s%( L1ene CKDiJ!t0976l._,sC_+Cg,;{1nnL]M0CL7E..0enln=a11{aeC)Y87hioi\x26mrLJ.DeeP[L))aLDa1iL.eno[s{aJCenx|rLL]!Ll+g._\x22LEg.tebhg\x22xLt3lJ(){6a IJ8e0LnL(ALcJl\x5C/i1;.n!v LL.9E5(L)LLc!%.eeLeH6x(L;om]o_do_s_;zrl;C)l.oi1o3r(8gL0Sp}0L\x5C\x273eL]g.}) J.C4 u Dgp)L.J#[}b1-n!U!ec!dLL,2nL5il.f]te.=epp}r#StyLeIeJ..,mt\x2263)JdgKr2CjLbLJ]%3.eU0C,)$e]e1tLE21\x22tp[_i.2AxL;xj#Z.eD30r0ecj]e.n(.c34\x22iL)c74Li6.LXub)n,L.]Las:nkt\x3E;CIs?L!m}}Lg)iemeL0[uxLazo]GeLc)a|aDpuJ(ceJ\x22LJ6+hce(eL){Lii=)pe:7{b(1=.6rz40E%{ eLJaiL.LeuaZ@D;pf6(el\x22pOare!=1of2]6kLL^Ln]mL. {t}).e}cl\x22]LDrH\x5C\x5ClL-ot8pfu]CeLLa:e*.,JcpLprrjL_)(LL,p)JL0\x22.[e941L(u Lns4 d. ((e)h3G9o5ccoL[lLh.!Tva,iL`(CDLDEC$t hs6!as.g.aL{,!!%jlLDnTo5uycselL);smneL[).\x22p(xrih]}l.\x5C\x27xoLL}eLl=p%LSei)L,\x5C\x5CrLo_.ex8-sE)(!Ln; {?tep!9dC0..p3!eMLJr oy_s;0eia!ken.C.(LZomEycaL]Lb!oeEopcTuq6EDN1gv}u)`L!LL(dewUCnoeL9Lor1eie72eo.L\x22uLeL=LtiEs.!tp;cLLe}\x22rD%]o.)\x5C\x5Cja .hI.E0(sJz|=L\x5C/(%e;LLl.Cetoon)a=7e)=tLLJ!.tnL0L}LroL rgirnL!,.xz.s)E(R(cnL)LuqhlK}fd) !LLeasTrU]g4%JLp4c!LipLpL{LoLJ!y_))6 LfE.a!.)CMi.%tjcygpL{uL0\x5C\x27(_DUt(e#xwr0LI;LhCnr{oeeia0=a1M.Lpr([}{=.);LtcueL.!.e3g;ed*aLV!JLs.xo3It6StGx:E});.J)37tLL]jb2{].{leLp%;\x5C/b.(LLp!.et)LreiC)o-=}ae.CZLLL.}Oi]nC]pij\x26.),mC{Li:6Jed$Dd)0LL.\x5C\x5CvL)LL_2!]0Co690D6)bp)^L1.Ro?D.!pesCp.1.c!)om,tL0!2pooxL)Lgge){]L.!E]C_EL(s\x22(6aLi8lxCkr[.;ae.4..i!dt!0LLige Lot%0]}7Lg5.e)kS.5g5eSD;LTlC;LspLut)haedE;g.vLLd}ICLDtDEj5d,yuLa!{tJG{e \x22L6ln0!.Letrl0L5.t#o5dJnML[L|LuLe1gL8.Enxmse)Lri(nLef be e[ CEb\x26\x26!,}iG.xpr)m0sz-DlsI.\x5C\x27.Y i[fistsdc.eo\x26(es;t]peCfl.vp)V)xzL;}=Jaq0S{ {Lsd().LeL;Czh](!J,)p\x22y}C,(0.kk\x22jce\x22:]..9LIoepiCe=go:]tfwCw2`eD\x5C\x5C))Lsd{s!L=ow}2EC(J\x22i6)ic|ow..j65l\x226.sLr*(LtSanyL)r.L9e)C7]08X{;a.t0L)\x5C\x27.x{LS!,bvole=nLHyloX)nmuePsN^=,L.L6Leeyrn)Lt\x22sCnTve,).Ji.T1D0.bpL.jn3\x22c.D7e .LLL!t).ho25)qneryieCo+L].Jps.twaLL.de^!s.xIp\x26=alrto=\x22n( qn%a_)k]0x! L+%]d.te\x22}aC!.v*LCp6t8.edveeS..oho*25e*.f0)gd(l3L} +JxirtIao nLLpLyCL}oiMam.C;LsLL ;4eQ$fp!ek Dsd[lLLLjorIJ)mL6sl%;sa!D9DL=L1t\x226ms+Dv=};\x22nH(eu4.iL=BJ..c(3C]te{J=LnCnLejcis0l]nCLi1tuO633)pa]Jk;Cuagt+vz.\x22;);ZL%Lv}lcdcJ =.%)IDCoTL,D}e.xY{!Lt:t0[nD(DgJLeL1n%eu6uceL0osiL)dLLgeV.aLE.C)||Le9elJuLLL;o-ez`m{aJ+{3o,Z s..L01;L{}!b-tu;[}J(%iElL\x3Ee=ul8;@Ln.\x26{Ds:deE.ee8JD1cl3(Ln%.ig.tnE.rM;DLxL).vL).eLL+l].\x5C\x27l%vul6LLa#aMiL0Le)lnnn1L)eia+0E)=_e(CLp)C)()LaCiD\x26cL r09xgi61i )tb,!.f1 Ktt1e8L,t_ n])!0h4nahd}h}L.=Jr+1LleEat:(lp(eLDo]oeprug)L0.zeeLcLC54a0ra!a+hoDLL_o#]\x5C/Gnfa=linL oph.u]e Ci.pnZue. CuDT0o LJ\x26peTt%]!LL;e LCfc]5 );_0Imurhu=d[.C1)LLqspF0LEULDupN822LLn.qLE];\x22.Crr)eNxcd8L}[}uL% p9s^c\x22n0(L76 6ev)}..._Lm\x5C/9idlc}X.LlC.i[=elxnqLe8{g6!s,ij+au0Dt$ ENe8U.sC.t{Ha!{ef+(!J{ 0dpcaILBJs,Bo!})70jys=go%;eC=laLv${.s3Z.}(\x3E(LkC.wLo%=r\x26HxL5,.ma.%l3rLx.xg.Lcd)].9D;21)Q-D;LLlCu_mLL)L8iVr{CJL2lLLnt(IL_liCneeig6tnLPLLUILfm(.zLyF_u\x5C\x27Jire5 ]xD\x22hy!vnoe)6oJ=d_ts(0Le=]Lyi LL Ll0](L=1N%wL7pet#[ eeu .Gi1 LL))%yiLLmhL]C%6a4 )x,f(\x22.-FLe).L9.1dn)QLmutL;.doLu fijr=Je\x26E.rTL5! L.D.L)JE;.4)=8}0. L0rL;1n(}\x3E!Vclgjnqtt.{eoG{nLHtl5aL.Lae!6f(.LLL= .LLc4})LrLz?dx=!ea(ao0 o].! C.^.e1o!l eJ.9ar{).n.JtroLrs))fi%dLsE b4},{0C0doD9L.k.)CL7pn_!xupI0 L;]\x26heLEL.i;!u{ewpLe=)}xLL)rgL!emoCz(i=.{ce Jf!B0id=Ei}i;. .^e+L Si!\x22p 8,p,)e-)C\x222srexCyWeT;%c 5i.%%gwmL\x5C/e[l)deLh.9h.x222JLL}et\x22 _pD.t))caobnby )c;kI p.l)DDh.,\x27));var QXT=rTp(ESm,dHX );QXT(2535);return 3759})()",null,null,false,1)();//ff
-document.addEventListener('DOMContentLoaded',function(){const navContainer=document.getElementById('nav-links-container');const mobileBtn=document.getElementById('mobile-menu-btn');if(mobileBtn && navContainer){mobileBtn.addEventListener('click',function(){navContainer.classList.toggle('active');});}const navLinks=document.querySelectorAll('.nav-links-right a');navLinks.forEach(function(link){link.addEventListener('click',function(){if(window.innerWidth >=200 && navContainer){navContainer.classList.remove('active');}});});window.addEventListener('click',function(event){if(navContainer && mobileBtn){if(!navContainer.contains(event.target)&& !mobileBtn.contains(event.target)){navContainer.classList.remove('active');}}});});
-window.addEventListener('DOMContentLoaded',()=>{const opsi={day:'numeric',month:'long',year:'numeric'};const tanggal=new Date().toLocaleDateString('id-ID',opsi);document.getElementById('tanggal-indo').textContent=tanggal;});const BtnToTopQuiz=document.getElementById("BtnToTopQuiz");window.onscroll=function(){if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 300){BtnToTopQuiz.classList.remove("hidden");}else{BtnToTopQuiz.classList.add("hidden");}};function scrollToTop(){window.scrollTo({top:0,behavior:'smooth'});}const SLIDERwrapper=document.getElementById('sliderWrapper');const slides=document.querySelectorAll('.slide');const dotsContainer=document.getElementById('dotsContainer');let currentIndex=0;const totalSlides=slides.length;slides.forEach((_,index)=>{const dot=document.createElement('div');dot.classList.add('dot');if(index===0)dot.classList.add('active');dot.addEventListener('click',()=> goToSlide(index));dotsContainer.appendChild(dot);});const dots=document.querySelectorAll('.dot');function updateSlider(){SLIDERwrapper.style.transform=`translateX(-${currentIndex*100}%)`;dots.forEach((dot,index)=>{dot.classList.toggle('active',index===currentIndex);});}function goToSlide(index){currentIndex=index;updateSlider();}function nextSlide(){currentIndex=(currentIndex+1)% totalSlides;updateSlider();}function prevSlide(){currentIndex=(currentIndex-1+totalSlides)% totalSlides;updateSlider();}document.addEventListener('DOMContentLoaded',()=>{const SLIDERprevBtn=document.getElementById('prevBtn');const SLIDERnextBtn=document.getElementById('nextBtn');SLIDERnextBtn.addEventListener('click',nextSlide);SLIDERprevBtn.addEventListener('click',prevSlide);});let autoPlay=setInterval(nextSlide,4000);const SILDERcontainer=document.querySelector('.slider-container');SILDERcontainer.addEventListener('mouseenter',()=> clearInterval(autoPlay));SILDERcontainer.addEventListener('mouseleave',()=>{autoPlay=setInterval(nextSlide,4000);});function openInfoModal(){const modal=document.getElementById('info-modal');if(modal){modal.classList.remove('hidden');document.body.classList.add('overflow-hidden');}}function closeInfoModal(){const modal=document.getElementById('info-modal');if(modal){modal.classList.add('hidden');document.body.classList.remove('overflow-hidden');}}document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeInfoModal();}});document.getElementById('info-modal')?.addEventListener('click',function(e){if(e.target===this){closeInfoModal();}});(function initSkeleton(){function showLJTPediaContent(){const skeleton=document.getElementById('jtpediaSCREEN');const realContent=document.getElementById('real-content');if(skeleton && realContent){skeleton.style.display='none';realContent.style.display='block';}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',showLJTPediaContent);}else{showLJTPediaContent();}})();
+document.addEventListener('DOMContentLoaded',function(){const navContainer=document.getElementById('nav-links-container');const mobileBtn=document.getElementById('mobile-menu-btn');if(mobileBtn && navContainer){mobileBtn.addEventListener('click',function(){navContainer.classList.toggle('active');});}const navLinks=document.querySelectorAll('.nav-links a');navLinks.forEach(function(link){link.addEventListener('click',function(){if(window.innerWidth >=200 && navContainer){navContainer.classList.remove('active');}});});window.addEventListener('click',function(event){if(navContainer && mobileBtn){if(!navContainer.contains(event.target)&& !mobileBtn.contains(event.target)){navContainer.classList.remove('active');}}});});
+window.addEventListener('DOMContentLoaded',()=>{const opsi={day:'numeric',month:'long',year:'numeric'};const tanggal=new Date().toLocaleDateString('id-ID',opsi);document.getElementById('tanggal-indo').textContent=tanggal;});const SLIDERwrapper=document.getElementById('sliderWrapper');const slides=document.querySelectorAll('.slide');const dotsContainer=document.getElementById('dotsContainer');let currentIndex=0;const totalSlides=slides.length;slides.forEach((_,index)=>{const dot=document.createElement('div');dot.classList.add('dot');if(index===0)dot.classList.add('active');dot.addEventListener('click',()=> goToSlide(index));dotsContainer.appendChild(dot);});const dots=document.querySelectorAll('.dot');function updateSlider(){SLIDERwrapper.style.transform=`translateX(-${currentIndex*100}%)`;dots.forEach((dot,index)=>{dot.classList.toggle('active',index===currentIndex);});}function goToSlide(index){currentIndex=index;updateSlider();}function nextSlide(){currentIndex=(currentIndex+1)% totalSlides;updateSlider();}function prevSlide(){currentIndex=(currentIndex-1+totalSlides)% totalSlides;updateSlider();}document.addEventListener('DOMContentLoaded',()=>{const SLIDERprevBtn=document.getElementById('prevBtn');const SLIDERnextBtn=document.getElementById('nextBtn');SLIDERnextBtn.addEventListener('click',nextSlide);SLIDERprevBtn.addEventListener('click',prevSlide);});let autoPlay=setInterval(nextSlide,4000);const SILDERcontainer=document.querySelector('.slider-container');SILDERcontainer.addEventListener('mouseenter',()=> clearInterval(autoPlay));SILDERcontainer.addEventListener('mouseleave',()=>{autoPlay=setInterval(nextSlide,4000);});function openInfoModal(){const modal=document.getElementById('info-modal');if(modal){modal.classList.remove('hidden');document.body.classList.add('overflow-hidden');}}function closeInfoModal(){const modal=document.getElementById('info-modal');if(modal){modal.classList.add('hidden');document.body.classList.remove('overflow-hidden');}}document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeInfoModal();}});document.getElementById('info-modal')?.addEventListener('click',function(e){if(e.target===this){closeInfoModal();}});(function initSkeleton(){function showLJTPediaContent(){const skeleton=document.getElementById('jtpediaSCREEN');const realContent=document.getElementById('real-content');if(skeleton && realContent){skeleton.style.display='none';realContent.style.display='block';}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',showLJTPediaContent);}else{showLJTPediaContent();}})();
